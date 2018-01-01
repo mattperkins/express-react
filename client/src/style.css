@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+}
+ul{
+list-style: none;
+padding: 0;
+width: 30%;
+margin: auto;
+}
+li{
+font-size: 1.3rem;
+line-height: 2rem;
+}
+span{
+  padding: 10px;
+}
