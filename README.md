@@ -5,7 +5,7 @@
 
 # RUN
 ## npm run dev 
-### Launches server and client concurrently
+### Launches Server and Client concurrently
 
 ### For Testing:
 ### npm run server (root directory)
