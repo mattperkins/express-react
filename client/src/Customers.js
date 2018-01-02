@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import './style.css'
 
 class Customers extends Component {
-  state={
+  state = {
     customers: []
   }
 
- componentDidMount() {
-   fetch('/api/customers')
-   .then(lemon => lemon.json())
-   .then(customers => this.setState({customers}))
- }
+  componentDidMount() {
+    fetch('/api/customers')
+      .then(lemon => lemon.json())
+      .then(customers => this.setState({ customers }))
+  }
 
   render() {
     return (
@@ -20,8 +20,8 @@ class Customers extends Component {
         <ul>
           {this.state.customers.map(customer =>
             <li key={customer.id}>
-              <span className="customer-data">{ customer.name }</span>
-              <span className="customer-data">{ customer.email }</span>
+              <span className="customer-data">{customer.name}</span>
+              <span className="customer-data">{customer.email}</span>
             </li>
           )}
         </ul>
@@ -33,4 +33,3 @@ class Customers extends Component {
 
 export default Customers
 
- 

@@ -12,9 +12,14 @@
 ### npm start (client folder)
 
 
+
 # SERVER
 ## endpoints:
 ### http://localhost:7777/api/customers
 
 # CLIENT
 ### http://localhost:3000/
+
+
+
+eslint --init
