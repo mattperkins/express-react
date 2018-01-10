@@ -12,7 +12,6 @@
 ### npm start (client folder)
 
 
-
 # SERVER
 ## endpoints:
 ### http://localhost:7777/api/customers
