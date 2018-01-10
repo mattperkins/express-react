@@ -4,12 +4,12 @@
 
 
 # RUN
-## npm run dev 
+## npm run start 
 ### Launches Server and Client concurrently
 
 ### For Testing:
 ### npm run server (root directory)
-### npm start (client folder)
+### npm dev (client folder)
 
 
 
